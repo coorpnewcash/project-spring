@@ -23,7 +23,7 @@ Actividad 4:
 Actividad 5:
 • Flash Scope: a partir de spring 3.1 se adiciona esta caracteristica de patron POST/Redirect/GET.
 En una app MVC cada form es la data POST submitted al server, un controller captura la data de la solicitud y lo procesa mas adelante, y una vez que la operacion es exitosa, usuario es forwarded a una pagina mostrando el exito de la operación, si manejamos esto via POST/Redirect/GET, esto puede causar algun tipo de problema en submission de multiple form, puede un usuario apretar F5 y la data seguira posteandose nuevamente.
-Para resolver esto se usa el patrón POST/Redirect/GET, una vez que el usuario ha posteado el form, redireccionamos la solicitud a otra pagina de exito, esto causa al browser desempeñar un nuevo GET request y cargar la pagina, asi si un usuario apreta F5, el request GET estara cargado en lugar de submit el form otra vez.
+Para resolver esto se usa el patrón POST/Redirect/GET, una vez que el usuario ha posteado el form, redireccionamos la solicitud a otra pagina de exito, esto causa al browser desempeñar un nuevo GET request y cargar la pagina, asi si un usuario apreta F5, el request GET estara cargado en lugar de submit el form otra vez...
 
 
 
