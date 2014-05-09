@@ -1,0 +1,73 @@
+Actividad 1: 
+•Pregunta 6 = a)
+•Pregunta 7 = c)
+•Pregunta 8 = Se ven tres configuraciones: una para escanear componentes para trabajar con anotaciones @Controller @Repository @Component mvc:annotation-driven para manejar anotaciones con framework mvc como @RequestMapping el bean InternalResourceViewResolver usado para resolver vistas basado en un patron definido (prefijo + vista + sufijo) y generar la vista de pagina URL generadaPregunta 8 = Se ven tres configuraciones: una para escanear componentes para trabajar con anotaciones @Controller @Repository @Component mvc:annotation-driven para manejar anotaciones con framework mvc como @RequestMapping el bean InternalResourceViewResolver usado para resolver vistas basado en un patron definido (prefijo + vista + sufijo) y generar la vista de pagina URL generada
+
+
+Actividad 2: 
+•1) Porque se hace mas compleja la arquitectura para el modelo MVC y su como consecuencia su dificil mantenimiento
+•2) Trabaja en las tres capas
+•3) Llega request al server, Hay un Front Controller, este busca la accion implementada en alguna controladora, controladora interactua con la capa modelo (logica negocio) retorna si es necesario el modelo respectivo Front Controller se apoya del template view para mostrar respuesta al solicitante 
+•4) Usa tecnologia JSP
+•5) En la capa modelo
+
+
+Actividad 3: 
+• Pregunta 6 = b) 
+
+
+Actividad 4: 
+• Pregunta 4 = b) 
+• Pregunta 5 = Estos tags nos sirven para usarlos con los objetos ya sea recorrerlos o mostrarlos con condicionales por ejemplo, son utiles para mostrar información de los objetos 
+
+Actividad 5:
+• Flash Scope: a partir de spring 3.1 se adiciona esta caracteristica de patron POST/Redirect/GET.
+En una app MVC cada form es la data POST submitted al server, un controller captura la data de la solicitud y lo procesa mas adelante, y una vez que la operacion es exitosa, usuario es forwarded a una pagina mostrando el exito de la operación, si manejamos esto via POST/Redirect/GET, esto puede causar algun tipo de problema en submission de multiple form, puede un usuario apretar F5 y la data seguira posteandose nuevamente.
+Para resolver esto se usa el patrón POST/Redirect/GET, una vez que el usuario ha posteado el form, redireccionamos la solicitud a otra pagina de exito, esto causa al browser desempeñar un nuevo GET request y cargar la pagina, asi si un usuario apreta F5, el request GET estara cargado en lugar de submit el form otra vez.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
